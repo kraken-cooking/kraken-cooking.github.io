@@ -1,0 +1,385 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kraken Cooking</title>
+    <!-- Favicon icons -->
+    <link rel="icon" type="image/png" href="/assets/icon-32x32-jLomk6bx.png" />
+    <link rel="icon" type="image/png" href="/assets/icon-192x192-D-ZuNanX.png" />
+    <!-- Customize script -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script type="module" crossorigin src="/assets/index-CY6L6aQ8.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BFnaTuvk.css">
+  </head>
+  <body>
+    <header class="font-lato">
+      <div class="max-w-screen-2xl mx-auto">
+        <div class="flex mx-4 my-2 items-center justify-between">
+          <a href="/">
+            <div class="flex items-center gap-2">
+              <img
+                class="rounded-full w-8 h-8 bg-bgPrimary"
+                alt="Logo Icon"
+                src="/assets/icon-500x500-BvLf0-8-.png"
+              />
+              <p class="text-sm md:text-base lg:text-lg">Kraken Cooking</p>
+            </div>
+          </a>
+          <nav>
+            <ul class="flex gap-4 *:transition-colors">
+              <li class="active:text-neutral-400 hover:text-neutral-400">
+                <a href="#about">About</a>
+              </li>
+              <li class="active:text-neutral-400 hover:text-neutral-400">
+                <a href="#work">Work</a>
+              </li>
+              <li class="active:text-neutral-400 hover:text-neutral-400">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="font-roboto container px-4 sm:px-8 md:px-0 space-y-16 py-16">
+      <section id="about">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8">
+          <div class="rounded-xl overflow-hidden">
+            <div
+              class="flex h-full max-w-[50vw] items-center justify-center mx-auto"
+            >
+              <img
+                class="object-cover aspect-square rounded-full"
+                alt="Avatar"
+                src="/assets/avatar-large-Dl0H-BJI.png"
+                id="imageAvatar"
+              />
+            </div>
+          </div>
+          <div
+            class="col-span-2 p-8 rounded-xl bg-gradient-to-b from-white to-primary"
+          >
+            <h2 class="text-3xl lg:text-5xl leading-tight font-semibold">
+              Hey,
+              <span class="block"
+                >I'm <span class="text-thirdanary">Kraken Cooking</span></span
+              >
+              A <span class="text-rose-500">Solo Developer</span> And
+              <span class="text-indigo-500">Freelancer</span>
+            </h2>
+            <p class="mt-4 text-lg">
+              With 4 year of experiences in building dynamic website, web,
+              mobile applications. Currently, I'm finding more challages and
+              projects.
+            </p>
+            <div class="mt-4 flex items-center gap-4">
+              <button
+                class="transition-colors border bg-white text-black border-black hover:bg-black hover:text-white hover:border-white px-4 md:px-8 lg:px-16 py-2 rounded-full h-12"
+              >
+                <p class="font-medium text-sm uppercase">Contact me</p>
+              </button>
+              <a
+                class="w-10 h-10 rounded-full border flex items-center justify-center transition-colors bg-white text-black hover:bg-black hover:text-white"
+                href="/"
+                target="_blank"
+              >
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 496 512"
+                  height="20px"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                class="w-10 h-10 rounded-full border flex items-center justify-center transition-colors bg-white text-black hover:bg-black hover:text-white"
+                href="/"
+                target="_blank"
+              >
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  height="20px"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M56 32l336 0c30.9 0 56 25.1 56 56l0 336c0 30.9-25.1 56-56 56L56 480c-30.9 0-56-25.1-56-56L0 88C0 57.1 25.1 32 56 32zM270.9 274.2c6.6-52.9 25.9-69.5 51.4-69.5c25.3 0 44.9 20.2 44.9 49.7s-19.7 49.7-44.9 49.7c-27.9 0-46.3-21.5-51.4-29.9zm-26.7-41.8c-8.2-15.5-14.3-36.3-19.2-55.6l-29.7 0-33.2 0 0 78.1c0 28.4-12.9 49.4-38.2 49.4s-39.8-20.9-39.8-49.3l.3-78.1-36.2 0 0 78.1c0 22.8 7.4 43.5 20.9 58.2c13.9 15.2 32.8 23.2 54.8 23.2c43.7 0 74.2-33.5 74.2-81.5l0-52.5c4.6 17.3 15.4 50.5 36.2 79.7L215 392.6l36.8 0 12.8-78.4c4.2 3.5 8.7 6.6 13.4 9.4c12.3 7.8 26.4 12.2 40.9 12.6l.1 0c.5 0 1.1 0 1.6 0c.6 0 1.1 0 1.7 0c45.1 0 80.9-34.9 80.9-81.9s-35.9-82.2-80.9-82.2c-45.4 0-70.9 29.7-78.1 60.1z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="work">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+          <div>
+            <a
+              href="/"
+              class="card-work block rounded-2xl overflow-hidden aspect-square"
+            >
+              <div
+                class="relative transition-all duration-500 bg-seaformGreen text-white p-4 md:p-8 w-full h-full hover:scale-105"
+              >
+                <p class="text-lg">TodoMaster</p>
+                <p class="text-base">Task management app</p>
+                <img
+                  class="w-full mt-2 rounded-2xl"
+                  src="/assets/work-1-C0jR6QrL.png"
+                />
+                <div
+                  class="absolute top-[10px] right-[10px] md:top-[20px] md:right-[20px]"
+                >
+                  <div
+                    class="w-10 h-10 flex items-center justify-center rounded-full bg-white text-primary"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="24px"
+                      width="24px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path fill="none" d="M0 0h24v24H0z"></path>
+                      <path
+                        d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              href="/"
+              class="card-work block rounded-2xl overflow-hidden aspect-square"
+            >
+              <div
+                class="relative transition-all duration-500 bg-vibrantPurple text-white p-4 md:p-8 w-full h-full hover:scale-105"
+              >
+                <p>MoodSync</p>
+                <p>Sync music with mood and enviroment</p>
+                <img
+                  src="/assets/work-2-Bf-_kZOq.png"
+                  class="w-full bg-rose-100 mt-2 rounded-2xl"
+                />
+                <div
+                  class="absolute top-[10px] right-[10px] md:top-[20px] md:right-[20px]"
+                >
+                  <div
+                    class="w-10 h-10 flex items-center justify-center rounded-full bg-white text-primary"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="24px"
+                      width="24px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path fill="none" d="M0 0h24v24H0z"></path>
+                      <path
+                        d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              href="/"
+              class="card-work block rounded-2xl overflow-hidden aspect-square"
+            >
+              <div
+                class="relative transition-all duration-500 bg-vibrantGreen text-white p-4 md:p-8 w-full h-full hover:scale-105"
+              >
+                <p>NutriTrack</p>
+                <p>Monitor your diet and wellness</p>
+                <img
+                  src="/assets/work-3-CqCvFM0E.png"
+                  class="w-full bg-rose-100 mt-2 rounded-2xl"
+                />
+                <div
+                  class="absolute top-[10px] right-[10px] md:top-[20px] md:right-[20px]"
+                >
+                  <div
+                    class="w-10 h-10 flex items-center justify-center rounded-full bg-white text-primary"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="24px"
+                      width="24px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path fill="none" d="M0 0h24v24H0z"></path>
+                      <path
+                        d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              href="/"
+              class="card-work block rounded-2xl overflow-hidden aspect-square"
+            >
+              <div
+                class="relative transition-all duration-500 bg-sunsetOrange text-white p-4 md:p-8 w-full h-full hover:scale-105"
+              >
+                <p>CryptoPulse</p>
+                <p>Track and manage crypto assets</p>
+                <img
+                  src="/assets/work-4-C30AsgA-.png"
+                  class="w-full bg-rose-100 mt-2 rounded-2xl"
+                />
+                <div
+                  class="absolute top-[10px] right-[10px] md:top-[20px] md:right-[20px]"
+                >
+                  <div
+                    class="w-10 h-10 flex items-center justify-center rounded-full bg-white text-primary"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="24px"
+                      width="24px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path fill="none" d="M0 0h24v24H0z"></path>
+                      <path
+                        d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="p-8 rounded-xl bg-gradient-to-b from-white to-primary">
+          <h1 class="text-4xl font-medium">Get in Touch</h1>
+          <div class="grid grid-cols-1 lg:grid-cols-2 mt-4 md:mt-8">
+            <p class="text-sm md:text-base lg:text-lg">
+              Have a question or want to start a project? I’d love to hear from
+              you! You can reach me through the following channels:
+            </p>
+            <p></p>
+          </div>
+          <ul class="flex flex-col sm:flex-row flex-wrap gap-2 mt-4 md:mt-8">
+            <li>
+              <a
+                href="mailto:kraken.cooking@gmail.com"
+                target="_blank"
+                class="block p-2 shadow rounded-md transition-colors bg-primary/10 hover:bg-primary"
+              >
+                <div class="flex items-center gap-2 font-semibold">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="24px"
+                    width="24px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Mail">
+                      <path
+                        d="M19.435,4.065H4.565a2.5,2.5,0,0,0-2.5,2.5v10.87a2.5,2.5,0,0,0,2.5,2.5h14.87a2.5,2.5,0,0,0,2.5-2.5V6.565A2.5,2.5,0,0,0,19.435,4.065Zm-14.87,1h14.87a1.489,1.489,0,0,1,1.49,1.39c-2.47,1.32-4.95,2.63-7.43,3.95a6.172,6.172,0,0,1-1.06.53,2.083,2.083,0,0,1-1.67-.39c-1.42-.75-2.84-1.51-4.25-2.26-1.14-.6-2.3-1.21-3.44-1.82A1.491,1.491,0,0,1,4.565,5.065Zm16.37,12.37a1.5,1.5,0,0,1-1.5,1.5H4.565a1.5,1.5,0,0,1-1.5-1.5V7.6c2.36,1.24,4.71,2.5,7.07,3.75a5.622,5.622,0,0,0,1.35.6,2.872,2.872,0,0,0,2-.41c1.45-.76,2.89-1.53,4.34-2.29,1.04-.56,2.07-1.1,3.11-1.65Z"
+                      ></path>
+                    </g>
+                  </svg>
+                  <p>kraken.cooking@gmail.com</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.github.com/kraken-cooking"
+                target="_blank"
+                class="block p-2 shadow rounded-md transition-colors bg-primary/10 hover:bg-primary"
+              >
+                <div class="flex items-center gap-2 font-semibold">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 496 512"
+                    height="24px"
+                    width="24px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                    ></path>
+                  </svg>
+                  <p>@kraken-cooking</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://x.com/KrakenCooking"
+                target="_blank"
+                class="block p-2 shadow rounded-md transition-colors bg-primary/10 hover:bg-primary"
+              >
+                <div class="flex items-center gap-2 font-semibold">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="24px"
+                    width="24px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                    ></path>
+                  </svg>
+                  <p>@KrakenCooking</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
